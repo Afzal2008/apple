@@ -1,0 +1,31 @@
+.wrapper{
+    text-align: center !important;
+}
+.item{
+    img{
+        width: 140px;
+        border: 1px solid lightgray;
+        border-radius: 50%;
+        padding: 10px;
+        margin-top: 10px;
+
+    }
+}
+.item1{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.item2{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+@media screen and (max-width:400px){
+    .item1{
+        display: block;
+    }
+    .item2{
+        display: block;
+    }
+}

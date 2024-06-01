@@ -1,0 +1,46 @@
+  .topnav {
+    /* display: none; */
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+  .logo2{
+    width: 20px;
+    height: 20px;
+  }
+  .topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    color: black;
+  }
+  
+  .active {
+    color: white;
+  }
+
+  @media screen and (min-width:400px){
+    .mobile-container{
+      display: none !important;
+    }
+    .logo2{
+      width: 30px;
+      height: 30px;
+    }
+
+  }

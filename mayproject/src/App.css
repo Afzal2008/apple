@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.ant-tabs-nav-wrap {
+    position: relative;
+    display: flex;
+    flex: auto;
+    align-self: stretch;
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translate(0);
+    justify-content: center !important;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.slick-next:before {
+    display: none !important;
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

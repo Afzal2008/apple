@@ -1,0 +1,15 @@
+.slider-container{
+    img{
+        width: 90%;
+        /* height: 100vh; */
+    }
+}
+
+@media screen and (max-width:400px) {
+    .slider-container{
+        display: block;
+        height: auto;
+
+    }
+
+}

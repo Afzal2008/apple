@@ -1,0 +1,106 @@
+.store{
+    width: 100%;
+}
+.txtphoto{
+    width: 100%;
+}
+.nav{
+padding-bottom: 5px;
+}
+.h1{
+    display: flex;
+    margin-top: 20px;
+}
+.h1{
+    margin-top: 100px;
+    padding-left: 100px;
+}
+   .span1{
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: .007em;
+            line-height: 1.1428571429;
+    }
+   .span2{
+        color: #6e6e73;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: .007em;
+        line-height: 1.1428571429;
+    }
+    .footerstore{
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .first_child{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgb(196, 194, 194);
+}
+    .footerp1{
+        display: flex;
+        margin-left: 20px;
+        gap: 5px;
+    }
+    .ssilka{
+        color: #06c;
+    }
+    .ssilka1{
+    color: rgba(3, 3, 3, 0.324);
+    }
+    .liniya{
+        height: 2px;
+        width: 90%;
+        background: rgba(37, 36, 36, 0.16);
+        margin-left: 20px;
+    }
+    .footerp2{
+        display: flex;
+        color: rgba(3, 3, 3, 0.324);
+        gap: 10px;
+    }
+    .pmid{
+        margin-left: 50px;
+        display: flex;
+        margin-right: 50px;
+        gap: 5px;
+    }
+    .applep{
+        background: #9a1d1d;
+    padding: 5px 0px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 10px;
+        span{
+            background: #f4f4f4;
+    font-size: 12px;
+        }
+        span:nth-child(2){
+            color: rgb(32, 82, 122);
+            font-weight: 500;
+        }
+    }
+
+    @media  screen and (max-width:400px)  {
+        .h1{
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+            span{
+                font-size: 18px;
+            }
+        }
+        .footerstore{
+            flex-wrap: wrap;
+            font-size: 12px;
+        
+        }
+        .footerp2{
+            margin-top: 10px;
+            margin-left: 0;
+            flex-wrap: wrap;
+            text-align: left;
+        }
+    }
+
+    

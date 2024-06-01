@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;    
+    margin: 0 auto;
+    padding: 12px 0px;
+}
+.navleft{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+.navright{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.searchphoto{
+    width: 20px;
+    height: 20px;
+}
+.bagphoto{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 400px){
+    .container{
+        display: none;
+    }
+    .logo{
+        width: 30px;
+        height: 30px !important;
+      }
+}
