@@ -9,7 +9,7 @@
     .slider-container{
         display: block;
         height: auto;
-
+        display: none;
     }
 
 }
